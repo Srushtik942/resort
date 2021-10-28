@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8cfa681839.js" crossorigin="anonymous"></script>
+
+    <title>Resort MIARA</title>
+</head>
+<body class="background">
+    <nav class="navbar">
+        <ul class="nav-list v-class">
+            <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#discount">Discount</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#booknow">Book Now</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="right-nav v-class">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="bg firstsect">
+        <div class="boxm">
+            <div class="fh">
+                <p class="text-big">Welcome To Resort MIARA </p>
+
+                <p class="text-small">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided inside a hotel room may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality beds, a dresser, a refrigerator and other kitchen facilities, upholstered chairs, a flat screen television, and en-suite bathrooms. Small, lower-priced hotels may offer only the most basic guest services and facilities.</p>
+                  <div class="button">
+                     <button class="btn">Subscribe</button>
+                     <button class="btn">Watch Video</button>
+                  </div>
+            </div>
+            <div class="sh">
+               <img src="../img/h2.jpg" alt="bed" width="500" height="400">
+            </div>
+        </div>
+</section>
+
+
+    <section class="secr" id="about">
+        <div class="paras">
+       <p class="sect text-big">Best View in Resort </p>
+       <p class="secst text-small">Where most Caribbean suites are perfectly content with a view over the beach, the Galaxy Suites at Jade Mountain in St Lucia aspire to something far more dramatic – a 120-degree view that starts from the Caribbean Sea on one side and carries on sweeping up to the vast twin peaks of the Piton Mountains on the other.
+       </p>
+    </div>
+       <div class="thumbnail">
+            <img src="img/s2.jpg" alt="hotelimg" class="fluid">
+        </div>
+    </section>
+
+
+    <section class="secl">
+        <div class="parasg">
+       <p class="sect text-big">Best Food in Resort</p>
+       <p class="secst text-small">Set plate is found only on the most affordable and most luxury resorts. In cheap hotels, this is a simple fare, but overall a good and enjoyable break from a round of buffets. In the expensive resorts, guests can enjoy gourmet cuisine at a beautiful table with candles or in an underwater restaurant, and the chef can demonstrate his impressive gastronomic gifts.</p>
+    </div>
+       <div class="thumbnail1">
+            <img src="img/food.jpg" alt="hotelimg" class="fluid">
+        </div>
+    </section>
+
+
+    <section class="secr">
+        <div class="paras">
+       <p class="sect text-big">Best Staff in Resort </p>
+       <p class="secst text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nemo repellendus voluptas atque quisquam error impedit? Consequuntur, optio minima sequi enim, sunt suscipit ducimus id, laborum saepe possimus ullam soluta.</p>
+    </div>
+       <div class="thumbnail">
+            <img src="img/staff.jpg" alt="hotelimg" class="fluid">
+        </div>
+    </section>
+
+
+    <section class="BookN" id="booknow">
+        <h2 class="text-center">Book Now</h2>
+      <div class="form">
+        <h1>Hotel Booking</h1>
+        <p1>Location</p1>
+        <div class="wrap">
+            <input type ="text" name="location" class="location"/>
+        </div>
+        <div class="date">
+            <p1>Check-in</p1>
+            <p1>Check-out</p1>
+            <div class="wrap">
+                <input id="datepickerIn" name="checkIn" class="checkIn" />
+                <input id="datepickerOut" name="checkOut" class="checkOut" />
+            </div>
+        </div>
+        <div class="rooms">
+            <p1>Room</p1>
+            <p1>Adults</p1>
+            <p1>Kids</p1>
+            <div class="wrap">
+
+                <input type="number" name="room" class="room" />
+
+                <input type="number" name="adults" class="adults" />
+
+                <input type="number" name="kids" class="kids" />
+                <button class="btn2">Submit</button>
+
+        </div>
+        </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="contact" id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form">
+        <input type="text" name="name" id="name" placeholder="Enter Your Name">
+        <input type="text" name="name" id="phone" placeholder="Enter Your Phone">
+        <input type="email" name="name" id="email" placeholder="Enter Your Email">
+        <button class="btn1">Submit</button>
+
+    </div>
+
+    </section>
+    <footer>
+        <p class="textf">
+        Copyright &copy; 2027 www.ResortMiara.com-All Rights Reserved
+    </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+
+        $(".wrap #datepickerIn").datepicker({ dateFormat: 'DD,dd MM' });
+        $(".wrap #datepickerOut").datepicker({ dateFormat: 'DD,dd MM' });
+    </script>
+    <script src="js/resp.js"></script>
+    <script src="style.js"></script>
+</body>
+</html>
